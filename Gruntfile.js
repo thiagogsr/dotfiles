@@ -299,11 +299,6 @@ module.exports = function(grunt) {
             zsh_theme_dracula: {
                 dest: '<%= config.zsh.path_theme_dracula %>',
                 relativeSrc: '<%= config.themes.path_dracula %>/zsh/dracula.zsh-theme'
-            },
-
-            cx: {
-                dest: userhome('.dotfiles/bin/cx'),
-                relativeSrc: '/usr/bin/cx'
             }
 
         },
