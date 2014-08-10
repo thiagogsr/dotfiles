@@ -12,13 +12,12 @@ The first JavaScript-based dotfiles powered by [Grunt](http://gruntjs.com/).
 ## How to setup?
 
 ```sh
+$ cd path_to_dotfiles
 $ npm install
 $ grunt setup
 ```
 
 This will symlink the appropriate files into your home directory. It may ask your password multiple times during the process.
-
-Just type `dotfiles` and it lets you know when updates are available.
 
 ## What to install before using dotfiles?
 
@@ -56,7 +55,7 @@ All my command-line tools and its configurations. Have fun :)
 
 ###### Theme
 
-* [Dracula](https://github.com/zenorocha/dracula-theme) for better syntax highlight for [ZSH](http://www.zsh.org/), [iTerm2](http://www.iterm2.com/) and [Alfred](http://www.alfredapp.com/)
+* [Dracula](https://github.com/zenorocha/dracula-theme) for better syntax highlight for [ZSH](http://www.zsh.org/) and [iTerm2](http://www.iterm2.com/)
 
 ###### General
 
@@ -78,7 +77,6 @@ All my command-line tools and its configurations. Have fun :)
 
 * [Rbenv](https://github.com/sstephenson/rbenv) for Ruby version management
 * [Ruby Build](https://github.com/sstephenson/ruby-build) for installing different Ruby versions
-* [Ruby on Rails](http://rubyonrails.org)
 
 ###### SGBD
 
