@@ -11,10 +11,10 @@
   "license": "BSD",
   "repository": {
     "type": "git",
-    "url": "git@github.com:eduardolundgren/dotfiles.git"
+    "url": "git@github.com:thiagogsr/dotfiles.git"
   },
   "bugs": {
-    "url": "https://github.com/eduardolundgren/dotfiles/issues"
+    "url": "https://github.com/thiagogsr/dotfiles/issues"
   },
   "keywords": [
     "cli",

@@ -1,4 +1,4 @@
-# Zeno's dotfiles
+# Thiago Guimaraes's dotfiles
 
 The first JavaScript-based dotfiles powered by [Grunt](http://gruntjs.com/).
 
@@ -32,6 +32,27 @@ $ dotfiles
 ```
 
 Just type `dotfiles` and it lets you know when updates are available.
+
+## What to install before using dotfiles?
+
+* [MacVim](https://github.com/b4winckler/macvim) for editor
+* [Google Chrome](https://www.google.com/intl/en-BR/chrome/browser/) for browser
+* [iTerm2](http://iterm2.com/downloads.html) for terminal
+* [Spotify](https://www.spotify.com/br/)
+* Adobe Photoshop
+* [HipChat](https://hipchat.com/downloads/latest/mac)
+* [SQuirrelSQL](http://squirrel-sql.sourceforge.net/#installation)
+* [Wunderlist](https://www.wunderlist.com/download/)
+* [Skype](http://www.skype.com/en/download-skype/skype-for-computer/)
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [Vagrant](http://www.vagrantup.com/downloads.html)
+* [f.lux](https://justgetflux.com/)
+* [Caffeine](http://itunes.apple.com/us/app/caffeine/id411246225)
+* [Bartender](http://www.macbartender.com/Demo/Bartender.zip)
+* [SizeUP](http://www.irradiatedsoftware.com/downloads/?file=SizeUp.zip)
+* [BatteryDiag](https://itunes.apple.com/us/app/battery-diag/id836505650?mt=12)
+* [TweetDeck](https://itunes.apple.com/us/app/tweetdeck/id485812721?ls=1&mt=12)
+* [Picasa](http://picasa.google.com/)
 
 ## What's included?
 
@@ -70,7 +91,6 @@ All my command-line tools and its configurations. Have fun :)
 * [Rbenv](https://github.com/sstephenson/rbenv) for Ruby version management
 * [Ruby Build](https://github.com/sstephenson/ruby-build) for installing different Ruby versions
 * [Compass](http://compass-style.org/) for Sass programming
-* [Jekyll](http://jekyllrb.com/) for static generated website development
 
 ###### OSX
 

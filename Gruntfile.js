@@ -98,27 +98,27 @@ module.exports = function(grunt) {
                     questions: [
                         {
                             config: 'config.osx.computername',
-                            default: 'zeno',
+                            default: 'thiago',
                             message: 'Which computer name would you like to use?'
                         },
                         {
                             config: 'config.git.name',
-                            default: 'Zeno Rocha',
+                            default: 'Thiago Guimaraes',
                             message: 'Which Git name would you like to use?'
                         },
                         {
                             config: 'config.git.email',
-                            default: 'zeno.rocha@liferay.com',
+                            default: 'thiagogsr@gmail.com',
                             message: 'Which Git email would you like to use?'
                         },
                         {
                             config: 'config.editor',
-                            default: 'subl',
+                            default: 'vim',
                             message: 'Which editor would you like to use?'
                         },
                         {
                             config: 'config.zsh.plugins',
-                            default: 'ant git history-substring-search z zsh-syntax-highlighting',
+                            default: 'git history-substring-search z zsh-syntax-highlighting brew ruby rails gem postgres',
                             message: 'Which Oh My Zsh plugins would you like to use?'
                         },
                         {
@@ -291,11 +291,6 @@ module.exports = function(grunt) {
                 relativeSrc: '<%= config.ruby.path_rbenv %>'
             },
 
-            sublime: {
-                dest: '/usr/local/bin/subl',
-                relativeSrc: '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'
-            },
-
             zsh: {
                 dest: '<%= config.zsh.path_zshrc_system %>',
                 relativeSrc: '<%= config.zsh.path_zshrc %>'
@@ -304,6 +299,11 @@ module.exports = function(grunt) {
             zsh_theme_dracula: {
                 dest: '<%= config.zsh.path_theme_dracula %>',
                 relativeSrc: '<%= config.themes.path_dracula %>/zsh/dracula.zsh-theme'
+            },
+
+            cx: {
+                dest: userhome('.dotfiles/bin/cx'),
+                relativeSrc: '/usr/bin/cx'
             }
 
         },
@@ -342,10 +342,6 @@ module.exports = function(grunt) {
 
             ruby_compass: {
                 command: 'sudo gem install compass'
-            },
-
-            ruby_jekyll: {
-                command: 'sudo gem install jekyll'
             },
 
             ruby_update: {
