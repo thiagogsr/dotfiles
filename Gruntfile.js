@@ -72,7 +72,7 @@ module.exports = function(grunt) {
             },
 
             themes: {
-                path_dracula: userhome('.dotfiles/themes/dracula'),
+                path_dracula: userhome('.dotfiles/themes/dracula')
             },
 
             z: {
@@ -87,13 +87,13 @@ module.exports = function(grunt) {
                 path_zshrc_system: userhome('.zshrc')
             },
 
-	    cx: {
-		path_cx: userhome('.dotfiles/bin/cx'),
-	    },
+            cx: {
+                path_cx: userhome('.dotfiles/bin/cx')
+            },
 
-	    mvim: {
-		path_cx: userhome('.dotfiles/bin/mvim'),
-	    }
+            mvim: {
+                path_mvim: userhome('.dotfiles/bin/mvim')
+            }
 
         },
 
@@ -235,26 +235,7 @@ module.exports = function(grunt) {
                 files: {
                     '<%= config.zsh.path_zshrc %>': ['templates/.zshrc']
                 }
-            },
-
-	    cx: {
-		options: {
-                    data: '<%= config %>'
-                },
-                files: {
-                    '<%= config.cx.path_cx %>': ['bin/cx']
-                }
-	    },
-
-	    mvim: {
-		options: {
-                    data: '<%= config %>'
-                },
-                files: {
-                    '<%= config.mvim.path_cx %>': ['bin/mvim']
-                }
-	    }
-
+            }
         },
 
         // -- Git --------------------------------------------------------------
@@ -361,25 +342,29 @@ module.exports = function(grunt) {
                 command: 'sudo gem update --system'
             },
 
-	    rails: {
-		command: 'gem install rails'
-	    },
-
             brew: {
                 command: 'ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"'
             },
 
-	    brew_update: {
-		command: 'brew update'
-	    },
+            brew_update: {
+                command: 'brew update'
+            },
 
             brew_tig: {
                 command: 'brew install tig'
             },
 
-	    brew_postgresql: {
-		command: 'brew install postgresql
-	    }
+            brew_postgresql: {
+                command: 'brew install postgresql'
+            },
+
+            cx: {
+                command: 'sudo ln -s <%= config.cx.path_cx %> /usr/bin/cx'
+            },
+
+            mvim: {
+                command: 'sudo ln -s <%= config.mvim.path_mvim %> /usr/bin/mvim'
+            }
 
         }
 
