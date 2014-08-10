@@ -35,7 +35,7 @@ if [[ -f "$HOME/.aliases" ]]; then
 fi
 
 # -- Bin -----------------------------------------------------------------------
-# export PATH="$HOME/.dotfiles/bin:$PATH"
+export PATH="$HOME/.dotfiles/bin:$PATH"
 
 # -- Rbenv ---------------------------------------------------------------------
 export PATH="$HOME/.rbenv/bin:$PATH"
