@@ -54,6 +54,9 @@ Just type `dotfiles` and it lets you know when updates are available.
 * [TweetDeck](https://itunes.apple.com/us/app/tweetdeck/id485812721?ls=1&mt=12)
 * [Picasa](http://picasa.google.com/)
 
+## TODO
+* See https://github.com/rafaelfranca/vimfiles
+
 ## What's included?
 
 All my command-line tools and its configurations. Have fun :)
