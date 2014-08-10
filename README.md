@@ -62,10 +62,6 @@ Just type `dotfiles` and it lets you know when updates are available.
 
 All my command-line tools and its configurations. Have fun :)
 
-###### Aliases
-
-* `server` Serve current folder over HTTP
-
 ###### Shell
 
 * [ZSH](http://www.zsh.org/) for shell
