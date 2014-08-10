@@ -53,6 +53,7 @@ Just type `dotfiles` and it lets you know when updates are available.
 * [BatteryDiag](https://itunes.apple.com/us/app/battery-diag/id836505650?mt=12)
 * [TweetDeck](https://itunes.apple.com/us/app/tweetdeck/id485812721?ls=1&mt=12)
 * [Picasa](http://picasa.google.com/)
+* [Dropbox](https://www.dropbox.com/install)
 
 ## TODO
 * See https://github.com/rafaelfranca/vimfiles
