@@ -40,7 +40,7 @@
         "value": "finder_extension"
     },
     {
-        "checked": true,
+        "checked": false,
         "name": "Show hidden files by default",
         "value": "finder_hidden"
     },
