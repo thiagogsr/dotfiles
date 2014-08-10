@@ -147,7 +147,7 @@ All my command-line tools and its configurations. Have fun :)
 * Require password immediately after sleep or screen saver begins
 * Restart automatically if the computer freezes
 * Reveal IP address, hostname, OS version, etc. when clicking the clock
-* Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
+* Save screenshots in JPG format (other options: BMP, GIF, JPG, PDF, TIFF)
 * Save screenshots to ~/Desktop
 * Set a blazingly fast keyboard repeat rate
 * Set computer name (as done via System Preferences → Sharing)
