@@ -35,11 +35,10 @@ Just type `dotfiles` and it lets you know when updates are available.
 
 ## What to install before using dotfiles?
 
-* [MacVim](https://github.com/b4winckler/macvim) for editor
-* [Google Chrome](https://www.google.com/intl/en-BR/chrome/browser/) for browser
-* [iTerm2](http://iterm2.com/downloads.html) for terminal
+* [MacVim](https://github.com/b4winckler/macvim)
+* [Google Chrome](https://www.google.com/intl/en-BR/chrome/browser/)
+* [iTerm2](http://iterm2.com/downloads.html)
 * [Spotify](https://www.spotify.com/br/)
-* Adobe Photoshop
 * [HipChat](https://hipchat.com/downloads/latest/mac)
 * [SQuirrelSQL](http://squirrel-sql.sourceforge.net/#installation)
 * [Wunderlist](https://www.wunderlist.com/download/)
@@ -54,6 +53,7 @@ Just type `dotfiles` and it lets you know when updates are available.
 * [TweetDeck](https://itunes.apple.com/us/app/tweetdeck/id485812721?ls=1&mt=12)
 * [Picasa](http://picasa.google.com/)
 * [Dropbox](https://www.dropbox.com/install)
+* [Alfred](http://www.alfredapp.com/)
 
 ## TODO
 * See https://github.com/rafaelfranca/vimfiles
