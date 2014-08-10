@@ -85,7 +85,11 @@ module.exports = function(grunt) {
                 path_theme_dracula: userhome('.dotfiles/.oh-my-zsh/themes/dracula.zsh-theme'),
                 path_zshrc: userhome('.dotfiles/.zshrc'),
                 path_zshrc_system: userhome('.zshrc')
-            }
+            },
+
+	    cx: {
+		path_cx: userhome('.dotfiles/bin/cx'),
+	    }
 
         },
 
@@ -227,7 +231,16 @@ module.exports = function(grunt) {
                 files: {
                     '<%= config.zsh.path_zshrc %>': ['templates/.zshrc']
                 }
-            }
+            },
+
+	    cx: {
+		options: {
+                    data: '<%= config %>'
+                },
+                files: {
+                    '<%= config.cx.path_cx %>': ['bin/cx']
+                }
+	    }
 
         },
 
@@ -319,10 +332,6 @@ module.exports = function(grunt) {
                 command: 'chsh -s /bin/zsh'
             },
 
-            theme_alfred: {
-                command: 'open <%= config.themes.path_dracula %>/alfred/Dracula.alfredappearance'
-            },
-
             theme_iterm: {
                 command: 'open <%= config.themes.path_dracula %>/iterm/Dracula.itermcolors'
             },
@@ -335,21 +344,29 @@ module.exports = function(grunt) {
                 command: 'sudo n stable'
             },
 
-            ruby_compass: {
-                command: 'sudo gem install compass'
-            },
-
             ruby_update: {
                 command: 'sudo gem update --system'
             },
+
+	    rails: {
+		command: 'gem install rails'
+	    },
 
             brew: {
                 command: 'ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"'
             },
 
+	    brew_update: {
+		command: 'brew update'
+	    }
+
             brew_tig: {
                 command: 'brew install tig'
-            }
+            },
+
+	    brew_postgresql: {
+		command: 'brew install postgresql
+	    }
 
         }
 

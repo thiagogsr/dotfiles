@@ -41,9 +41,6 @@ export PATH="$HOME/.dotfiles/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# -- Update --------------------------------------------------------------------
-dotfiles
-
 # -- More Configurations -------------------------------------------------------
 autoload up-line-or-beginning-search
 autoload down-line-or-beginning-search
