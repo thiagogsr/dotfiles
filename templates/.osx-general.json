@@ -20,7 +20,7 @@
         "value": "general_dstore"
     },
     {
-        "checked": true,
+        "checked": false,
         "name": "Enable natural (Lion-style) scrolling",
         "value": "general_scroll"
     },
