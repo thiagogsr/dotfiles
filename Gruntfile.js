@@ -89,6 +89,10 @@ module.exports = function(grunt) {
 
 	    cx: {
 		path_cx: userhome('.dotfiles/bin/cx'),
+	    },
+
+	    mvim: {
+		path_cx: userhome('.dotfiles/bin/mvim'),
 	    }
 
         },
@@ -240,6 +244,15 @@ module.exports = function(grunt) {
                 files: {
                     '<%= config.cx.path_cx %>': ['bin/cx']
                 }
+	    },
+
+	    mvim: {
+		options: {
+                    data: '<%= config %>'
+                },
+                files: {
+                    '<%= config.mvim.path_cx %>': ['bin/mvim']
+                }
 	    }
 
         },
@@ -358,7 +371,7 @@ module.exports = function(grunt) {
 
 	    brew_update: {
 		command: 'brew update'
-	    }
+	    },
 
             brew_tig: {
                 command: 'brew install tig'
