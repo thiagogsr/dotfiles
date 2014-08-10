@@ -78,10 +78,6 @@ All my command-line tools and its configurations. Have fun :)
 * [Rbenv](https://github.com/sstephenson/rbenv) for Ruby version management
 * [Ruby Build](https://github.com/sstephenson/ruby-build) for installing different Ruby versions
 
-###### SGBD
-
-* [Postgresql](http://www.postgresql.org)
-
 ###### OSX
 
 * Disable the sound effects on boot

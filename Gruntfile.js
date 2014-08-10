@@ -354,10 +354,6 @@ module.exports = function(grunt) {
                 command: 'brew install tig'
             },
 
-            brew_postgresql: {
-                command: 'brew install postgresql'
-            },
-
             cx: {
                 command: 'sudo ln -s <%= config.cx.path_cx %> /usr/bin/cx'
             },
@@ -366,6 +362,16 @@ module.exports = function(grunt) {
                 command: 'sudo ln -s <%= config.mvim.path_mvim %> /usr/bin/mvim'
             }
 
+        },
+
+        // -- Copy -------------------------------------------------------------
+
+        copy: {
+          main: {
+            files: [
+              {expand: true, src: ['./bin/*'], dest: userhome('.dotfiles/bin/')}
+            ]
+          }
         }
 
     });
@@ -381,7 +387,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-symlink');
     grunt.loadNpmTasks('grunt-template');
+    grunt.loadNpmTasks('grunt-contrib-copy');
 
-    grunt.registerTask('setup', ['banner', 'prompt', 'clean', 'template', 'gitclone', 'shell', 'symlink']);
+    grunt.registerTask('setup', ['banner', 'prompt', 'clean', 'template', 'gitclone', 'shell', 'symlink', 'copy']);
 
 };
