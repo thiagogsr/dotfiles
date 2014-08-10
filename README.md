@@ -9,27 +9,14 @@ The first JavaScript-based dotfiles powered by [Grunt](http://gruntjs.com/).
 1. Install [Git](http://git-scm.com), if you don't have it yet.
 2. Install [NodeJS](http://nodejs.org/download/), if you don't have it yet.
 
-## How to install?
-
-```sh
-$ [sudo] npm install -g dotfiles
-```
-
-This will install [dotfiles](http://npmjs.org/dotfiles) from [NPM](http://npmjs.org).
-
 ## How to setup?
 
 ```sh
-$ dotfiles setup
+$ npm install
+$ grunt setup
 ```
 
 This will symlink the appropriate files into your home directory. It may ask your password multiple times during the process.
-
-## How to update?
-
-```sh
-$ dotfiles
-```
 
 Just type `dotfiles` and it lets you know when updates are available.
 
@@ -75,6 +62,7 @@ All my command-line tools and its configurations. Have fun :)
 
 * [Z](https://github.com/rupa/z/) for quick navigation through folders
 * [Shell highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) Fish shell like syntax highlighting for Zsh
+* [Cloud 66 Toolbelt](https://github.com/cloud66/cx)
 
 ###### NodeJS
 
@@ -90,7 +78,11 @@ All my command-line tools and its configurations. Have fun :)
 
 * [Rbenv](https://github.com/sstephenson/rbenv) for Ruby version management
 * [Ruby Build](https://github.com/sstephenson/ruby-build) for installing different Ruby versions
-* [Compass](http://compass-style.org/) for Sass programming
+* [Ruby on Rails](http://rubyonrails.org)
+
+###### SGBD
+
+* [Postgresql](http://www.postgresql.org)
 
 ###### OSX
 
