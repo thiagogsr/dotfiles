@@ -89,10 +89,6 @@ module.exports = function(grunt) {
 
             cx: {
                 path_cx: userhome('.dotfiles/bin/cx')
-            },
-
-            mvim: {
-                path_mvim: userhome('.dotfiles/bin/mvim')
             }
 
         },
@@ -356,10 +352,6 @@ module.exports = function(grunt) {
 
             cx: {
                 command: 'sudo ln -s <%= config.cx.path_cx %> /usr/bin/cx'
-            },
-
-            mvim: {
-                command: 'sudo ln -s <%= config.mvim.path_mvim %> /usr/bin/mvim'
             }
 
         },

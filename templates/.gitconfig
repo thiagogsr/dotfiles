@@ -57,14 +57,14 @@
   diff = auto
   status = auto
   mnemonicprefix = true
-  tool = mvimdiff
+  tool = vimdiff
 [merge]
-  tool = mvimdiff
+  tool = vimdiff
   summary = true
   verbosity = 1
 [mergetool]
   prompt = false
-[mergetool "mvimdiff"]
+[mergetool "vimdiff"]
   cmd="mvim -c 'Gdiff' $MERGED"     # use fugitive.vim for 3-way merge
   keepbackup=false
 [difftool]
