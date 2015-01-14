@@ -1,3 +1,5 @@
+![Dependencies Status](https://david-dm.org/thiagogsr/dotfiles.svg)
+
 # Thiago Guimaraes's dotfiles
 
 The first JavaScript-based dotfiles powered by [Grunt](http://gruntjs.com/).
