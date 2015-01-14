@@ -21,7 +21,6 @@ This will symlink the appropriate files into your home directory. It may ask you
 
 ## What to install before using dotfiles?
 
-* [MacVim](https://github.com/b4winckler/macvim)
 * [Google Chrome](https://www.google.com/intl/en-BR/chrome/browser/)
 * [iTerm2](http://iterm2.com/downloads.html)
 * [Spotify](https://www.spotify.com/br/)
@@ -33,11 +32,9 @@ This will symlink the appropriate files into your home directory. It may ask you
 * [Vagrant](http://www.vagrantup.com/downloads.html)
 * [f.lux](https://justgetflux.com/)
 * [Caffeine](http://itunes.apple.com/us/app/caffeine/id411246225)
-* [Bartender](http://www.macbartender.com/Demo/Bartender.zip)
 * [SizeUP](http://www.irradiatedsoftware.com/downloads/?file=SizeUp.zip)
 * [BatteryDiag](https://itunes.apple.com/us/app/battery-diag/id836505650?mt=12)
 * [TweetDeck](https://itunes.apple.com/us/app/tweetdeck/id485812721?ls=1&mt=12)
-* [Picasa](http://picasa.google.com/)
 * [Dropbox](https://www.dropbox.com/install)
 * [Alfred](http://www.alfredapp.com/)
 
