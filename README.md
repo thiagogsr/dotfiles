@@ -1,4 +1,5 @@
-![Dependencies Status](https://david-dm.org/thiagogsr/dotfiles.svg)
+[![Dependencies Status](http://img.shields.io/david/thiagogsr/dotfiles.svg?style=flat)](https://david-dm.org/thiagogsr/dotfiles)
+[![PeerDependencies Status](http://img.shields.io/david/peer/thiagogsr/dotfiles.svg?style=flat)](https://david-dm.org/thiagogsr/dotfiles#info=peerDependencies)
 
 # Thiago Guimaraes's dotfiles
 
