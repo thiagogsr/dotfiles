@@ -350,6 +350,10 @@ module.exports = function(grunt) {
                 command: 'brew install tig'
             },
 
+            brew_maven: {
+                command: 'brew install maven'
+            },
+
             cx: {
                 command: 'sudo ln -s <%= config.cx.path_cx %> /usr/bin/cx'
             }

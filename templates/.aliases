@@ -1,3 +1,4 @@
 # -- Work --------------------------------------------------------------------
 alias vi="vim"
 alias cl="clear"
+alias mci="mvn clean install"
